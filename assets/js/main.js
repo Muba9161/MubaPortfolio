@@ -227,3 +227,27 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+// const toggel = document.getElementById('toggelbtn');
+// const body = document.body;
+
+// if(localStorage.getItem('theme') === 'light-background'){
+//   body.classList.add('dark-background');
+//   toggel.innerHTML = '<i class="bi bi-sun"></i>'
+// }
+
+// toggel.addEventListener('click', (e)=>{
+//   e.preventDefault();
+
+//   body.classList.toggle('dark-background');
+
+//   if(body.classList.contains('dark-background')){
+//     toggel.innerHTML = '<i class="bi bi-sun"></i>';
+//     localStorage.setItem('theme','dark-background');
+//   }
+//   else{
+//     toggel.innerHTML = '<i class="bi bi-moon"></i>'
+//     localStorage.setItem('theme','light-background');
+//   }
+// })
